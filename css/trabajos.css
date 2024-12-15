@@ -1,0 +1,152 @@
+body{
+    margin: 0px;   
+}
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(155, 240, 211);
+}
+.img2{
+    background-image: url("../img/fondito\ para\ mi\ trabajito.jpg");
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr   ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.htebazile{
+    grid-row: 1/3;
+    grid-column: 3/3;
+    color: white;
+    font-family: cursive;
+    font-size: 7vh;
+    font-weight: bold;
+}
+.life{
+    background-color:rgba(128, 128, 128, 0.603);
+    width: 22vw;
+    height: 13vh;
+    margin: 25PX;
+    border-radius: 0px 50px 0px 50px;
+}
+.l1{
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+.l2{
+    grid-column: 2 /3;
+    grid-row: 3/2;
+}
+.l3{
+    grid-column: 3/4;
+    grid-row: 2/2;
+}
+.l4{
+    grid-column: 4/4 ;
+    grid-row: 2/2;
+}
+.l5{
+    grid-column: 3/4;
+    grid-row: 3/3;
+}
+.l6{
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+h1{
+    text-align: center; /* Centra el texto */
+    font-size: 20px; /* Aumenta el tamaño del texto */
+    font-weight: bold;
+    font-family: cursive;
+}
+h2{
+    text-align: center; /* Centra el texto */
+    font-size: 20px; /* Aumenta el tamaño del texto */
+    font-weight: bold;
+    margin-top: 25px;
+    font-family:  cursive;
+} 
+
+.nose{
+    background-color: rgba(192, 192, 192, 0.274);
+    width: 20vw;
+    height: 90vh;
+    display: grid;
+    grid-row: 1/4;
+    grid-column: 8/6;
+}
+a{
+    color: black;
+}
+a :hover{
+    color: rgb(117, 38, 38);
+}
+.todo{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;  
+    grid-template-rows: 3fr 5fr  4fr 3fr;
+}
+.inicio {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    color: white;
+    font-family: cursive;
+    font-size: 5vh;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 70px;
+}
+.acercademi {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    color: white;
+    font-family: cursive;
+    font-size: 5vh;
+    align-items: center;
+    font-weight: bold;
+  }
+  .trabajos {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    color: white;
+    font-family: cursive;
+    font-size: 5vh;
+    font-weight: bold;
+    margin-top: -90px;
+  }
+  .contacto{
+    grid-row: 4/5;
+    grid-column: 1/4;
+    color: white;
+    font-family: cursive;
+    font-size: 5vh;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -100px;
+  }
+.mini{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.derecho, .izquierdo{
+    margin: 2vh;
+  }
+.izquierdo{
+    margin-right: 580px;
+}
+.centro{
+    display: flex;
+    gap: 15px;
+}
+.blun img{
+    border-radius: 50px 50px 50px 50px;
+}
